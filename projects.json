@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "slug": "quickbrew",
+    "name": "QuickBrew",
+    "tagline": "Aplikasi Pemesanan Kopi Cepat",
+    "description": "Aplikasi web untuk memesan kopi dengan cepat dan mudah. Pengguna dapat memilih menu, mengustomisasi pesanan (ukuran, susu, level gula), lalu checkout dalam hitungan detik.",
+    "longDescription": "QuickBrew adalah aplikasi pemesanan kopi berbasis web yang dirancang untuk mempersingkat antrian di kedai kopi. Pengguna cukup memilih menu favorit mereka, mengatur preferensi minuman seperti ukuran gelas, jenis susu, dan tingkat kemanisan, kemudian melakukan checkout. Sistem akan menampilkan estimasi waktu pengambilan secara real-time sehingga pelanggan tidak perlu menunggu lama di kasir.",
+    "tech": ["Next.js", "Tailwind CSS", "MySQL", "TypeScript"],
+    "status": "In Progress",
+    "icon": "☕",
+    "highlights": [
+      "Pemesanan instan tanpa antrian panjang",
+      "Kustomisasi minuman sesuai selera",
+      "Estimasi waktu siap diambil secara real-time",
+      "Riwayat pesanan tersimpan otomatis"
+    ],
+    "features": [
+      {
+        "title": "Menu Interaktif",
+        "desc": "Tampilan menu dengan foto dan deskripsi lengkap setiap minuman."
+      },
+      {
+        "title": "Kustomisasi Pesanan",
+        "desc": "Pilih ukuran, jenis susu, level gula, dan topping sesuai selera."
+      },
+      {
+        "title": "Estimasi Waktu",
+        "desc": "Sistem menampilkan estimasi waktu pengambilan pesanan secara real-time."
+      },
+      {
+        "title": "Riwayat Pesanan",
+        "desc": "Pengguna dapat melihat riwayat pesanan sebelumnya dan memesan ulang."
+      }
+    ],
+    "github": "https://github.com/suastika805-hash",
+    "demo": null
+  },
+  {
+    "id": 2,
+    "slug": "portfolio-web",
+    "name": "Portfolio Website",
+    "tagline": "Website Portofolio Pribadi",
+    "description": "Website portofolio pribadi yang dibangun dengan Next.js 14 dan Tailwind CSS, menampilkan profil, skill, dan proyek.",
+    "longDescription": "Website portofolio ini dibangun dari awal menggunakan Next.js 14 dengan App Router dan Tailwind CSS. Menampilkan informasi lengkap tentang profil, keahlian teknis, dan proyek yang pernah dikerjakan. Dilengkapi fitur dark/light mode otomatis dan animasi smooth scroll yang membuat pengalaman pengguna lebih menyenangkan.",
+    "tech": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "status": "Completed",
+    "icon": "🖥️",
+    "highlights": [
+      "Dark mode & light mode otomatis",
+      "Responsive di semua ukuran layar",
+      "Animasi smooth scroll dengan Intersection Observer",
+      "Deploy ke Vercel"
+    ],
+    "features": [
+      {
+        "title": "Dark / Light Mode",
+        "desc": "Toggle tema gelap dan terang yang tersimpan sesuai preferensi sistem."
+      },
+      {
+        "title": "Responsive Design",
+        "desc": "Tampilan optimal di mobile, tablet, maupun desktop."
+      },
+      {
+        "title": "Smooth Animations",
+        "desc": "Animasi fade-in saat scroll menggunakan Intersection Observer API."
+      },
+      {
+        "title": "Multi-page Navigation",
+        "desc": "Navigasi antar halaman menggunakan Next.js App Router."
+      }
+    ],
+    "github": "https://github.com/suastika805-hash/portfolio",
+    "demo": "https://portfolio-puce-eight-71.vercel.app"
+  },
+  {
+    "id": 3,
+    "slug": "sistem-akademik",
+    "name": "Sistem Akademik",
+    "tagline": "Manajemen Data Mahasiswa",
+    "description": "Aplikasi manajemen data akademik sederhana untuk mencatat data mahasiswa, mata kuliah, dan nilai menggunakan MySQL.",
+    "longDescription": "Sistem akademik ini dibuat sebagai tugas mata kuliah Basis Data. Aplikasi ini memungkinkan admin untuk mengelola data mahasiswa, mata kuliah, dan nilai secara efisien menggunakan antarmuka web yang sederhana dan responsif. Data disimpan di MySQL dan diakses melalui query SQL yang teroptimasi.",
+    "tech": ["HTML", "CSS", "PHP", "MySQL"],
+    "status": "Completed",
+    "icon": "🎓",
+    "highlights": [
+      "CRUD data mahasiswa dan mata kuliah",
+      "Kalkulasi nilai otomatis",
+      "Antarmuka sederhana dan intuitif",
+      "Query SQL teroptimasi"
+    ],
+    "features": [
+      {
+        "title": "Manajemen Mahasiswa",
+        "desc": "Tambah, edit, hapus, dan cari data mahasiswa dengan mudah."
+      },
+      {
+        "title": "Manajemen Mata Kuliah",
+        "desc": "Kelola daftar mata kuliah beserta SKS dan dosen pengampu."
+      },
+      {
+        "title": "Input Nilai",
+        "desc": "Input nilai UTS, UAS, dan tugas; sistem menghitung nilai akhir otomatis."
+      },
+      {
+        "title": "Laporan",
+        "desc": "Cetak laporan nilai per mahasiswa atau per mata kuliah."
+      }
+    ],
+    "github": "https://github.com/suastika805-hash",
+    "demo": null
+  }
+]
